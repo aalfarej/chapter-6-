@@ -16,7 +16,7 @@ def is_even(n):
         return False
 
 def is_odd(n):
-    if n%2 == 1:
+    if n % 2 == 1:
         return True
     else:
         return False
@@ -24,7 +24,7 @@ def is_odd(n):
 
 def is_factor(f,n):
     if f <n or f == n:
-        if n%f==0:
+        if n % f==0:
             return True
         else:
             return False
@@ -32,7 +32,7 @@ def is_factor(f,n):
         return False
 
 def is_multiple(a,b):
-    if is_factor(b,a):
+    if is_factor(a,b):
         return True
     else:
         return False
